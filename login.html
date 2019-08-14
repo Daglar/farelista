@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ertuda|Tourism</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+<div  class="container">
+   
+    <div class="row">
+    <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h3 class="text-center">Log In</h3>
+                <div class="form-group">
+                    <label>E-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+                <input id = "signin"class="btn btn-lg btn-primary btn-block" type="submit" value="Sign in">
+                <hr>
+                <p class="text-center">
+                    If you are not a member<a href="register.html">,register now</a>
+                </p>
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+
+ <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+ <script defer src="https://www.gstatic.com/firebasejs/6.3.5/firebase-auth.js"></script>
+ <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase-database.js"></script>
+    <script src="login.js"></script>
+
+</body>
+</html>
